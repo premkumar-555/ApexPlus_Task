@@ -1,0 +1,33 @@
+.wp-100{
+    width: 100%;
+}
+.hp-100{
+    height: 100%;
+}
+.wv-100{
+    width: 100vw;
+}
+.hw-100{
+    height: 100vh;
+}
+.d-flex{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.ai-center{
+    align-items: center;
+}
+.jc-bet{
+    justify-content: space-between;
+}
+.flx-d-col {
+    flex-direction: column;
+}
+.border-black{
+    border: 1px solid black;
+}
+.border-blue{
+    border: 1px solid blue;
+}
