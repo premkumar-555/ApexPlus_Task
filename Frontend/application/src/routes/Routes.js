@@ -5,9 +5,9 @@ import AddVehicle from "../pages/Vehicles/InputForm";
 import VehiclesList from "../pages/Vehicles/List";
 
 export const routes_data = [
-    {path: '/', element: <Home/>},
-    {path: '/scenarios', element: <ScenariosList/>},
-    {path: '/add_scenarios', element: <AddScenarios/>},
-    {path: '/vehicles', element: <VehiclesList/>},
-    {path: '/add_vehicles', element: <AddVehicle/>},
+    {path: '/', element: Home},
+    {path: '/scenarios', element: ScenariosList},
+    {path: '/add_scenarios', element: AddScenarios},
+    {path: '/vehicles', element: VehiclesList},
+    {path: '/add_vehicles', element: AddVehicle},
 ]

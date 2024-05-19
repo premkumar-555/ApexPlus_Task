@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import "./App.css";
+import RoutesSource from "./routes";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-     <div className='wv-100 hv-100 border-black'>
-     
-     </div>
+      <div className="wv-100 hv-100 border-black">
+        <RoutesSource/>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

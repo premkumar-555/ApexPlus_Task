@@ -7,7 +7,7 @@
 .wv-100{
     width: 100vw;
 }
-.hw-100{
+.hv-100{
     height: 100vh;
 }
 .d-flex{
@@ -18,6 +18,9 @@
 }
 .ai-center{
     align-items: center;
+}
+.ai-center{
+    align-items: start;
 }
 .jc-bet{
     justify-content: space-between;
@@ -30,4 +33,7 @@
 }
 .border-blue{
     border: 1px solid blue;
+}
+.trasnitions{
+    transition: all 0.5s ease-in-out;
 }

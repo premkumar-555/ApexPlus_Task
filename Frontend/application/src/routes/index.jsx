@@ -1,11 +1,27 @@
 import {
-    createBrowserRouter,
-    RouterProvider,
-  } from "react-router-dom";
-  import { routes_data } from "./Routes";
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  Routes,
+} from "react-router-dom";
+import { routes_data } from "./Routes";
+import LayoutContainer from "../layout";
+import Sidebar from "../layout/Sidebar";
+import Content from "../layout/Content";
 
-  const router = createBrowserRouter([
-    ...routes_data
-  ]);
+const RoutesSource = () => {
+  return (
+    <LayoutContainer>
+      <Sidebar />
+      <Content>
+        <Routes>
+          {routes_data.map(({ path, element }, ind) => (
+            <Route key={ind} exact path={path} element={element} />
+          ))}
+        </Routes>
+      </Content>
+    </LayoutContainer>
+  );
+};
 
-  export default router;
+export default RoutesSource;
